@@ -1,0 +1,17 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "containerDefinitions": [
+      {
+        "name": "docker-react",
+        "image": "khojii/docker-react",
+        "essential": true,
+        "portMappings": [
+          {
+            "hostPort": 80,
+            "containerPort": 3000
+          }
+        ]
+      }
+    ]
+  }
+  
