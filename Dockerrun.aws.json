@@ -1,5 +1,4 @@
 {
-    "AWSEBDockerrunVersion": 1,
     "containerDefinitions": [
       {
         "name": "docker-react",
